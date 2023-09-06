@@ -1,0 +1,60 @@
+*,*::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    overflow: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./one_img/raceroad.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.directions{
+
+    display: grid;
+    grid-template-areas: 
+    "qq ww ee"
+    "aa ss dd";
+}
+
+.directions span{
+
+    background-color: #282828;
+    color: #FFFFFF;
+    font-size: 50px;
+
+    margin: 10px;
+    
+    width: 100px;
+    aspect-ratio: 1;
+
+    text-align: center;
+    line-height: 100px;
+}
+
+.W{
+    grid-area: ww;
+}
+.S{
+    grid-area: ss;
+}
+.A{
+    grid-area: aa;
+}
+.D{
+    grid-area: dd;
+}
