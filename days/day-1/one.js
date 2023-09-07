@@ -11,13 +11,16 @@ document.addEventListener('keypress', (event) => {
     const keyCode = event.keyCode;
     switch (keyCode) {
         case keyCodes.W:
-            // W tuşuna basılınca bir class eklemek, bir fonksiyon çağırmak
+            console.log("w")
             break;
         case keyCodes.A:
+            console.log("a")
             break;
         case keyCodes.S:
+            console.log("s")
             break;
         case keyCodes.D:
+            console.log("d")
             break;
         default:
             break;
@@ -25,6 +28,9 @@ document.addEventListener('keypress', (event) => {
     keysPressed[keyCode] = true;
 });
 
+// function generalChecking(){
+    
+// }
 
 
 

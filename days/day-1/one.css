@@ -25,6 +25,7 @@ body{
 }
 .directions{
 
+
     display: grid;
     grid-template-areas: 
     "qq ww ee"
@@ -44,6 +45,9 @@ body{
 
     text-align: center;
     line-height: 100px;
+
+    border-radius: 2px;
+    outline: 4px solid #FFFFFF;
 }
 
 .W{
