@@ -1,7 +1,6 @@
 # EverydayJavascript
- popular javascript projects
+# https://mericnam.github.io/EverydayJavascript/
 
-javascript 30 and more.
-
+basic and usefull javascript projects
 
 
