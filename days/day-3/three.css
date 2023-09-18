@@ -1,0 +1,32 @@
+*,*::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    overflow: hidden;
+    overflow: visible;
+}
+:root {
+    --base: #ffffff;
+}
+body{
+    background-color: #C4D6EC;
+}
+.container{
+    width: 95vw;
+    text-align: center;
+}
+.controls label{
+    font-size: 20px;
+    margin: 2px;
+}
+.controls{
+    height: 15vh;
+    margin: 15px;
+}
+.main_picture{
+    height: 75vh;
+    margin: 15px;
+    border: 5px solid var(--base);
+    overflow: hidden;
+}
